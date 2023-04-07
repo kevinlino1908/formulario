@@ -1,0 +1,94 @@
+h2{
+    font-size: 28px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 700px;
+    height: 600px;
+}
+.container .left{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(80, 80, 204);
+    padding-top: 80px;
+}
+.left form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.left form h2{
+    margin-top: 40px;
+    padding-bottom: 15px;
+    color: white
+}
+input{
+    border: none;
+    border-bottom: 1px solid;
+    border-color: rgba(255,255,255,0.784);
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+textarea{
+    border: none;
+    border-bottom: 1px solid ;
+    border-color: rgba(255,255,255,0.784);
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+button{
+    width: 127px;
+    height: 47px;
+    background-color: rgb(223, 24, 190);
+    color: white;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(87, 87, 240);
+    border: 1px solid rgba(255,255,255,0.784);;
+    color: black;
+}
+.container .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blueviolet;
+    padding-left: 30px;
+    padding-right: 30px;  
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.right p{
+    color: white;
+    margin-bottom: 10px;
+}
+.right h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.right a{
+    text-decoration:none;
+    color:white
+}
+.right a p{
+    color:rgb(223, 24, 190);
+}
+    
